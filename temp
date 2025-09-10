@@ -1,0 +1,202 @@
+<iframe class="w-full border-none rounded-none" title="HTML Preview" src="about:blank" srcdoc="
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+          &lt;head&gt;
+            &lt;meta charset=&quot;utf-8&quot; /&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+            &lt;style&gt;
+              body { 
+                margin: 0; 
+                padding: 16px; 
+                background-color: #ffffff;
+              }
+            &lt;/style&gt;
+          &lt;/head&gt;
+          &lt;body&gt;&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+    &lt;title&gt;FitFlex InsightStream: Navigating the News Landscape&lt;/title&gt;
+    &lt;script src=&quot;https://cdn.tailwindcss.com&quot;&gt;&lt;/script&gt;
+    &lt;style&gt;
+        /* Custom styles for uniqueness */
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .hero-bg {
+            background-image: url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/3dcd068a-2e34-482f-92ce-563a28abff7f.png');
+            background-size: cover;
+            background-position: center;
+        }
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        .fade-in {
+            animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        /* Dark mode support */
+        .dark {
+            background: #1a202c;
+            color: #f7fafc;
+        }
+        .dark .card-hover {
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body class=&quot;text-gray-800 dark:text-gray-100&quot;&gt;
+    &lt;header class=&quot;bg-white bg-opacity-90 backdrop-blur-md shadow-lg sticky top-0 z-50&quot;&gt;
+        &lt;div class=&quot;container mx-auto px-4 py-4 flex justify-between items-center&quot;&gt;
+            &lt;h1 class=&quot;text-2xl font-bold text-purple-600&quot;&gt;FitFlex InsightStream&lt;/h1&gt;
+            &lt;nav class=&quot;hidden md:flex space-x-6&quot;&gt;
+                &lt;a href=&quot;#hero&quot; class=&quot;text-gray-700 dark:text-gray-200 hover:text-purple-600 transition&quot;&gt;Home&lt;/a&gt;
+                &lt;a href=&quot;#fitness&quot; class=&quot;text-gray-700 dark:text-gray-200 hover:text-purple-600 transition&quot;&gt;Fitness&lt;/a&gt;
+                &lt;a href=&quot;#insights&quot; class=&quot;text-gray-700 dark:text-gray-200 hover:text-purple-600 transition&quot;&gt;News Insights&lt;/a&gt;
+                &lt;a href=&quot;#about&quot; class=&quot;text-gray-700 dark:text-gray-200 hover:text-purple-600 transition&quot;&gt;About&lt;/a&gt;
+            &lt;/nav&gt;
+            &lt;button id=&quot;toggleDark&quot; class=&quot;bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700 transition&quot;&gt;Toggle Dark Mode&lt;/button&gt;
+            &lt;button id=&quot;menuToggle&quot; class=&quot;md:hidden bg-purple-600 text-white p-2 rounded-full&quot;&gt;
+                &lt;img src=&quot;https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/2dcb3c6a-d401-474f-8605-ced44725a5bd.png&quot; alt=&quot;Menu icon showing three horizontal lines representing navigation options&quot;&gt;
+            &lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div id=&quot;mobileMenu&quot; class=&quot;hidden md:hidden bg-white bg-opacity-95 py-4&quot;&gt;
+            &lt;a href=&quot;#hero&quot; class=&quot;block px-4 py-2 text-gray-700 hover:bg-purple-100 transition&quot;&gt;Home&lt;/a&gt;
+            &lt;a href=&quot;#fitness&quot; class=&quot;block px-4 py-2 text-gray-700 hover:bg-purple-100 transition&quot;&gt;Fitness&lt;/a&gt;
+            &lt;a href=&quot;#insights&quot; class=&quot;block px-4 py-2 text-gray-700 hover:bg-purple-100 transition&quot;&gt;News Insights&lt;/a&gt;
+            &lt;a href=&quot;#about&quot; class=&quot;block px-4 py-2 text-gray-700 hover:bg-purple-100 transition&quot;&gt;About&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/header&gt;
+
+    &lt;section id=&quot;hero&quot; class=&quot;hero-bg min-h-screen flex items-center justify-center text-center text-white&quot;&gt;
+        &lt;div class=&quot;max-w-4xl px-4 fade-in&quot;&gt;
+            &lt;h2 class=&quot;text-5xl md:text-7xl font-extrabold mb-4&quot;&gt;Navigating the News Landscape with Fitness in Mind&lt;/h2&gt;
+            &lt;p class=&quot;text-xl md:text-2xl mb-8&quot;&gt;Empower college students to stay fit, stay informed, and critically evaluate the news that impacts your world.&lt;/p&gt;
+            &lt;div class=&quot;flex justify-center space-x-4&quot;&gt;
+                &lt;a href=&quot;#fitness&quot; class=&quot;bg-purple-600 hover:bg-purple-700 text-white px-8 py-3 rounded-full transition&quot;&gt;Explore Fitness Tips&lt;/a&gt;
+                &lt;a href=&quot;#insights&quot; class=&quot;border-2 border-white text-white px-8 py-3 rounded-full hover:bg-white hover:text-purple-600 transition&quot;&gt;Dive into News Insights&lt;/a&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;section id=&quot;fitness&quot; class=&quot;py-16 bg-gray-50 dark:bg-gray-800&quot;&gt;
+        &lt;div class=&quot;container mx-auto px-4&quot;&gt;
+            &lt;h2 class=&quot;text-4xl font-bold text-center mb-12 text-purple-600&quot;&gt;FitFlex: Stay Active, Stay Sharp&lt;/h2&gt;
+            &lt;div class=&quot;grid md:grid-cols-2 lg:grid-cols-3 gap-8&quot;&gt;
+                &lt;div class=&quot;bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg card-hover&quot;&gt;
+                    &lt;img src=&quot;https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/ba92ccf7-e8f1-4734-926f-30772864063c.png&quot; alt=&quot;Dynamic illustration of a young college student performing high-intensity interval training in a vibrant gym setting with dumbbells and a timer on the wall&quot; class=&quot;w-full h-48 object-cover rounded-t-lg mb-4&quot;&gt;
+                    &lt;h3 class=&quot;text-xl font-semibold mb-2&quot;&gt;HIIT Workouts for Busy Students&lt;/h3&gt;
+                    &lt;p class=&quot;text-gray-600 dark:text-gray-300&quot;&gt;Quick, effective exercises to boost energy and focus during study breaks. Perfect for tight schedules.&lt;/p&gt;
+                    &lt;button class=&quot;mt-4 bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition&quot; onclick=&quot;alert('Pro tip: Try 20-min sessions 3x/week for optimal results!')&quot;&gt;Learn More&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg card-hover&quot;&gt;
+                    &lt;img src=&quot;https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/a698d2b3-ed47-4a6b-a8e7-69b2652795ed.png&quot; alt=&quot;Serene scene of college friends practicing yoga poses in a park with greenery and clear skies, emphasizing mental clarity and balance&quot; class=&quot;w-full h-48 object-cover rounded-t-lg mb-4&quot;&gt;
+                    &lt;h3 class=&quot;text-xl font-semibold mb-2&quot;&gt;Mindful Yoga for Stress Relief&lt;/h3&gt;
+                    &lt;p class=&quot;text-gray-600 dark:text-gray-300&quot;&gt;Relax with poses that reduce anxiety from exams and news overload. Ideal for mental fitness.&lt;/p&gt;
+                    &lt;button class=&quot;mt-4 bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition&quot; onclick=&quot;alert('Incorporate deep breathing for enhanced benefits.')&quot;&gt;Get Poses&lt;/button&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg card-hover&quot;&gt;
+                    &lt;img src=&quot;https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/99da2574-8b0f-49a9-80ec-883bd3c05e04.png&quot; alt=&quot;Healthy meal prep station with fruits, vegetables, and smoothie ingredients on a countertop, showcasing nutrition for student athletes&quot; class=&quot;w-full h-48 object-cover rounded-t-lg mb-4&quot;&gt;
+                    &lt;h3 class=&quot;text-xl font-semibold mb-2&quot;&gt;Nutrient-Rich Dining on a Budget&lt;/h3&gt;
+                    &lt;p class=&quot;text-gray-600 dark:text-gray-300&quot;&gt;Easy recipes using dorm kitchen staples to fuel your body for academic and athletic performance.&lt;/p&gt;
+                    &lt;button class=&quot;mt-4 bg-purple-600 text-white px-4 py-2 rounded hover:bg-purple-700 transition&quot; onclick=&quot;alert('Example: Oatmeal with nuts and fruit for sustained energy.')&quot;&gt;Recipe Ideas&lt;/button&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;section id=&quot;insights&quot; class=&quot;py-16 bg-white dark:bg-gray-900&quot;&gt;
+        &lt;div class=&quot;container mx-auto px-4&quot;&gt;
+            &lt;h2 class=&quot;text-4xl font-bold text-center mb-12 text-purple-600&quot;&gt;InsightStream: Navigate the News Landscape&lt;/h2&gt;
+            &lt;p class=&quot;text-center text-lg mb-8 max-w-2xl mx-auto text-gray-700 dark:text-gray-300&quot;&gt;Blend media literacy with your fitness journey. Learn to spot biases, verify sources, and stay informed without burnout.&lt;/p&gt;
+            &lt;div class=&quot;grid md:grid-cols-2 gap-8&quot;&gt;
+                &lt;div class=&quot;bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg&quot;&gt;
+                    &lt;img src=&quot;https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/68173a65-3bde-4157-bd31-bbb40c3cf196.png&quot; alt=&quot;Infographic displaying steps to fact-check news articles, with icons for source verification, cross-referencing, and critical thinking in a modern digital interface&quot; class=&quot;w-full h-48 object-cover rounded-t-lg mb-4&quot;&gt;
+                    &lt;h3 class=&quot;text-xl font-semibold mb-2&quot;&gt;Fact-Checking 101&lt;/h3&gt;
+                    &lt;p class=&quot;text-gray-600 dark:text-gray-300 mb-4&quot;&gt;Tools and techniques to verify information quickly, keeping you sharp and healthy in a fast-paced world.&lt;/p&gt;
+                    &lt;ul class=&quot;list-disc list-inside text-gray-600 dark:text-gray-300&quot;&gt;
+                        &lt;li&gt;Check multiple sources&lt;/li&gt;
+                        &lt;li&gt;Look for original data&lt;/li&gt;
+                        &lt;li&gt;Avoid echo chambers&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-lg&quot;&gt;
+                    &lt;img src=&quot;https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/02f7c92f-e7f3-491e-8a8c-8430a7952a0c.png&quot; alt=&quot;Illustrative chart breaking down cognitive biases with examples like confirmation bias illustrated by a brain icon and misleading news headlines&quot; class=&quot;w-full h-48 object-cover rounded-t-lg mb-4&quot;&gt;
+                    &lt;h3 class=&quot;text-xl font-semibold mb-2&quot;&gt;Avoiding Neurological Pitfalls&lt;/h3&gt;
+                    &lt;p class=&quot;text-gray-600 dark:text-gray-300 mb-4&quot;&gt;Understand how misinformation affects your brain and fitness – stay vigilant to prevent misinformation fatigue.&lt;/p&gt;
+                    &lt;ul class=&quot;list-disc list-inside text-gray-600 dark:text-gray-300&quot;&gt;
+                        &lt;li&gt;Recognize clickbait tactics&lt;/li&gt;
+                        &lt;li&gt;Tie into emotional intelligence&lt;/li&gt;
+                        &lt;li&gt;Practice mindful consumption&lt;/li&gt;
+                    &lt;/ul&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;text-center mt-8&quot;&gt;
+                &lt;button id=&quot;loadNews&quot; class=&quot;bg-purple-600 text-white px-8 py-3 rounded-full hover:bg-purple-700 transition&quot;&gt;Load Latest Insights&lt;/button&gt;
+                &lt;div id=&quot;newsFeed&quot; class=&quot;mt-8 space-y-4&quot;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;section id=&quot;about&quot; class=&quot;py-16 bg-purple-100 dark:bg-purple-900 text-center&quot;&gt;
+        &lt;div class=&quot;container mx-auto px-4&quot;&gt;
+            &lt;h2 class=&quot;text-4xl font-bold mb-8 text-purple-600&quot;&gt;About FitFlex InsightStream&lt;/h2&gt;
+            &lt;p class=&quot;text-lg max-w-3xl mx-auto text-gray-700 dark:text-gray-300 mb-8&quot;&gt;Designed for college students, this platform combines fitness routines with critical thinking skills to navigate today's complex news environment. Stay fit, stay informed, and thrive academically and personally.&lt;/p&gt;
+            &lt;div class=&quot;flex justify-center&quot;&gt;
+                &lt;img src=&quot;https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/acd12ae3-aa70-4f5e-b9ee-d3c2b3c40093.png&quot; alt=&quot;Group of diverse college students collaborating on a fitness and news analysis project in a bright university common area with laptops and yoga mats&quot; class=&quot;w-full max-w-lg rounded-lg shadow-lg&quot;&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+    &lt;footer class=&quot;bg-gray-800 text-white py-8&quot;&gt;
+        &lt;div class=&quot;container mx-auto px-4 text-center&quot;&gt;
+            &lt;p&gt;© 2023 FitFlex InsightStream. Built for empowered students.&lt;/p&gt;
+            &lt;p class=&quot;mt-4&quot;&gt;Need help? &lt;a href=&quot;mailto:support@fitflexinsights.com&quot; class=&quot;underline hover:text-purple-400 transition&quot;&gt;Contact us&lt;/a&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/footer&gt;
+
+    &lt;script&gt;
+        // Dark mode toggle
+        document.getElementById('toggleDark').addEventListener('click', function() {
+            document.body.classList.toggle('dark');
+        });
+
+        // Mobile menu toggle
+        document.getElementById('menuToggle').addEventListener('click', function() {
+            document.getElementById('mobileMenu').classList.toggle('hidden');
+        });
+
+        // Load news insights (dummy data)
+        document.getElementById('loadNews').addEventListener('click', function() {
+            const feed = document.getElementById('newsFeed');
+            feed.innerHTML = `
+                &lt;div class=&quot;bg-white dark:bg-gray-700 p-4 rounded-lg shadow&quot;&gt;
+                    &lt;h4 class=&quot;font-semibold text-purple-600&quot;&gt;Latest: The Rise of 5-Min Workouts&lt;/h4&gt;
+                    &lt;p class=&quot;text-gray-600 dark:text-gray-300&quot;&gt;Explore how short bursts of exercise enhance mental clarity for better news comprehension.&lt;/p&gt;
+                    &lt;small class=&quot;text-gray-500&quot;&gt;Source: Student Health Journal&lt;/small&gt;
+                &lt;/div&gt;
+                &lt;div class=&quot;bg-white dark:bg-gray-700 p-4 rounded-lg shadow&quot;&gt;
+                    &lt;h4 class=&quot;font-semibold text-purple-600&quot;&gt;Bias in Social Media News Feeds&lt;/h4&gt;
+                    &lt;p class=&quot;text-gray-600 dark:text-gray-300&quot;&gt;Tips to diversify your intake and maintain a balanced perspective in your fitness journey.&lt;/p&gt;
+                    &lt;small class=&quot;text-gray-500&quot;&gt;Source: Media Literacy Net&lt;/small&gt;
+                &lt;/div&gt;
+            `;
+        });
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+&lt;/content&gt;
+&lt;/create_file&gt;
+&lt;/body&gt;
+        &lt;/html&gt;
+      " style="height: 590px;"></iframe>
